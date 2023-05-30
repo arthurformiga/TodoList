@@ -1,0 +1,113 @@
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .form {
+    margin-bottom: 20px;
+  }
+  
+  .selected-container {
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+  }
+  
+  .list {
+    width: 30%;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    color: #fff;
+  }
+  
+  .todo-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .search {
+    margin-bottom: 10px;
+  }
+  
+  .options-select {
+    margin-bottom: 20px;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    width: 70%;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    background-color: #333;
+    outline: none;
+  }
+  
+  select {
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: #333;
+  }
+  
+  option {
+    padding: 10px;
+  }
+  
+  aside.list {
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  div.search {
+    display: flex;
+    align-items: center;
+  }
+  
+  div.options-select {
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+  }
+  
+  div.buttons {
+    text-align: center;
+  }
+  
